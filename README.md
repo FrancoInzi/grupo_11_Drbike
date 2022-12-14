@@ -6,14 +6,14 @@
 # wireframe https://wireframe.cc/pro/edit/610934
 
 <!--  Entregable: Wireframe digital o analógico de las siguientes secciones del sitio:
-● Home = https://wireframe.cc/pro/edit/610934
-● Detalle de producto = https://wireframe.cc/pro/pp/cdbbaa70c612301
+● Home =    https://wireframe.cc/pro/pp/e43b91ea2610934
+● Detalle de producto = 
 ● Carrito de compras 
 ● Formulario de registro
-● Formulario de login = https://wireframe.cc/pro/pp/4017c073e612303
+● Formulario de login = 
 Tip: les recomendamos crear la carpeta wireframes para incluir este contenido.
 Entregable (Opcional): Boceto o diseño del sitio incluyendo.
-● Logo
+● Logo 
 ● Colores
 ● Tipografías
 Tip: les recomendamos crear la carpeta design para incluir este contenido.
