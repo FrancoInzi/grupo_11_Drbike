@@ -1,7 +1,14 @@
 # grupo_11_Drbike
 # Repositorio: https://github.com/FrancoInzi/grupo_11_Drbike.git
 # la página es sobre una bicicletería vende repuestos, bicicletas nuevas y usadas, alquiler de bicicletas y tiene servicio de reparación y mantenimiento de las mismas, así como también en la misma bicicleteria se realizan cursos de mecánica 
-# descripción de los integrantes del equipo
+# descripción de los integrantes del equipo: Los integrantes del grupo son:
+<!-- 
+★ Nicolas Descalzo es de Buenos Aires, Argentina. Es emprendedor del area de ciclismo, tiene 44 años. 
+★ Santino Russo, de Buenos Aires, Argentina. Tiene 18 años y es estudiante.
+★ Franco Inzirilo, es oriundo de Mendoza, Argentina. Tiene 30 años y es comunicador social y delivery.
+★ Maria Guadalupe Rodriguez Frosi, tiene 33 años, es de Cordoba, Argentina. Es Tecnica Universitaria en Industrias Alimentarias.
+★Yediz Callejas
+-->
 # referente 1 : https://www.ciclos.biz/ por estética y funcionalidad, además de ser un sitio local|| referente 2: https://www.schindelhauerbikes.com/ por su estética y formato de la pagina || referente 3: https://drbikepalermo.mitiendanube.com/ un boceto previamente hecho por Nico || referente 4: https://www.trekbikes.com/es/es_ES/ || referente 5: http://barcelonetabikes.com/
 # wireframe https://wireframe.cc/pro/edit/610934
 
