@@ -1,16 +1,16 @@
 # grupo_11_Drbike
 # Repositorio: https://github.com/FrancoInzi/grupo_11_Drbike.git
-# la página es sobre una bicicletería vende repuesto, bicicletas nuevas y usadas y tiene servicio de reparación y mantenimiento de las mismas
+# la página es sobre una bicicletería vende repuestos, bicicletas nuevas y usadas, alquiler de bicicletas y tiene servicio de reparación y mantenimiento de las mismas, así como también en la misma bicicleteria se realizan cursos de mecánica 
 # descripción de los integrantes del equipo
-# referente 1 : https://www.ciclos.biz/ por estética y funcionalidad, además de ser un sitio local|| referente 2: https://www.schindelhauerbikes.com/ por su estética y formato de la pagina || referente 3: https://drbikepalermo.mitiendanube.com/ un boceto previamente hecho por Nico || referente 4: || referente 5:
+# referente 1 : https://www.ciclos.biz/ por estética y funcionalidad, además de ser un sitio local|| referente 2: https://www.schindelhauerbikes.com/ por su estética y formato de la pagina || referente 3: https://drbikepalermo.mitiendanube.com/ un boceto previamente hecho por Nico || referente 4: https://www.trekbikes.com/es/es_ES/ || referente 5: http://barcelonetabikes.com/
 # wireframe https://wireframe.cc/pro/edit/610934
 
 <!--  Entregable: Wireframe digital o analógico de las siguientes secciones del sitio:
-● Home
-● Detalle de producto
-● Carrito de compras
+● Home = https://wireframe.cc/pro/edit/610934
+● Detalle de producto = https://wireframe.cc/pro/pp/cdbbaa70c612301
+● Carrito de compras 
 ● Formulario de registro
-● Formulario de login
+● Formulario de login = https://wireframe.cc/pro/pp/4017c073e612303
 Tip: les recomendamos crear la carpeta wireframes para incluir este contenido.
 Entregable (Opcional): Boceto o diseño del sitio incluyendo.
 ● Logo
@@ -38,7 +38,7 @@ Ya lo dijimos antes, pero vale la pena repetirlo: si quieren que su proyecto ten
 posibilidades de tener éxito, pónganle esmero a la etapa de planificación.
 Tener un documento que explique el objetivo y el contexto del sitio así como tener un listado de
 referentes provee un marco de referencia para resolver dudas.
-Tener un wireframe y un boceto del sitio permite que los integrantes del grupo trabajen por
+Tener un wireframe y un boceto del sitio permite que los integrantes del grupo trabajen porgit pull
 separado y que luego, al unir las piezas, todas coincidan. Por otro lado, es un documento de
 consulta a la hora de resolver dudas sobre cómo debe quedar tal o cual sección.
 Por último, y no menos importante, sepan que las cosas pueden romperse, pueden no salir bien
