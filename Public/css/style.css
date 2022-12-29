@@ -13,4 +13,11 @@ footer.p {
 }
 .h2-footer {
     border: 1px;
+    text-align: justify;
+}
+body{
+       background-image: url('../Image/varios-modelos-estilos-bicicletas-que-ciclistas-elijan-edad-uso-bicicleta-ilustracion-dibujos-animados-vectoriales-aislada-fondo-blanco_1150-58603.webp');
+}
+.texto-centrado {
+    text-align: center
 }
