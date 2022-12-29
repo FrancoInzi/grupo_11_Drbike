@@ -11,6 +11,7 @@
 -->
 # referente 1 : https://www.ciclos.biz/ por estética y funcionalidad, además de ser un sitio local|| referente 2: https://www.schindelhauerbikes.com/ por su estética y formato de la pagina || referente 3: https://drbikepalermo.mitiendanube.com/ un boceto previamente hecho por Nico || referente 4: https://www.trekbikes.com/es/es_ES/ || referente 5: http://barcelonetabikes.com/
 # wireframe https://wireframe.cc/pro/edit/610934
+# Trello: https://trello.com/b/RZHNHJeH/sprint-uno
 
 <!--  Entregable: Wireframe digital o analógico de las siguientes secciones del sitio:
 ● Home =    https://wireframe.cc/pro/pp/e43b91ea2610934

@@ -1,14 +1,16 @@
 const express = require('express');
 const path = require('path');
 
-app.use(express.static('Public'))
-
 const app = express();
 
+app.use(express.static('Public'));
 
-app.listen(3000, () => console.log ('servidor exitoso'));
+
+
+app.listen(5500, () => console.log ('servidor exitoso'));
+
 app.get('/', function(req, res){
-    res.send('Página principal') 
+    res.send('Home') 
 });
 app.get('/404', function(req, res){
     res.send("Error página no encontrada")
