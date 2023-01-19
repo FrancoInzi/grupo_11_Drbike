@@ -4,10 +4,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../Public/css/styleproducto.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://kit.fontawesome.com/6a08be7fa5.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 <body>
+  <header class="header1">
+      <img class="imagen" src="../Public/Image/logo-213171787-1620332962-35c80523f0f9d768bf3ed3d93f6254c21620332963-480-0.png" height="100px" width="100px">
+      <form class="buscador" action="../../form-result.php" method="post" target="_blank">
+        <p>      
+          <i class="fa-thin fa-magnifying-glass"></i><input type="search" name="busqueda" placeholder="Buscar productos, marcas">
+          <input type="submit" value="Buscar">
+        </p>  
+      </form>
+      <div class="usuario">
+        <i class="fa-regular fa-user"><p>Nombre Usuario</p></i>
+     </div>
+  </header>
+  <section class="producto">
+    <h3>Versa 700 R29</h3>
+    <p>$100.000</p>
+    <img src="../Public/Image/Zenith-Versa-700-R28-Bordo-600x600.webp" width="350px" height="350px">
+    <h4>Características</h4><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam velit hic doloremque amet perferendis ullam expedita odit, officia blanditiis nostrum aperiam veniam inventore veritatis illum voluptates, quia facilis quas praesentium.</p>
+  </section>
+  
+  <section> 
+    <p>Seleciónar Talla</p>
+    <form>
+        <label for="talle">Talle<i class="fa-solid fa-bicycle"></i></label>
+        <input type="radio" name="talle" value="R1">R1
+        <input type="radio" name="talle" value="R2">R2
+        <input type="radio" name="talle" value="R3">R3
+    </form>
+    <p>Ver Formas de pago y promociones.</p><input type="submit" value="Consultar"> 
+    <br>   
+    <h5 class="subfoot">Pagá con tarjeta o en efectivo</h5> 
+    <i class="fa-solid fa-credit-card" ></i>     
+    <input type="submit" value="Comprar">
+  </section>
+  
+  <footer class="foot">
     
+    <section>
+       
+       <h5 class="subfoot">Envío gratis a AMBA</h5>
+       <i class="fa-solid fa-gift"></i>
+       <p>   Calculá el envio   </p>
+       <form action="../../form-result.php" method="post" target="_blank">
+        <p>      
+         </i><input type="search" name="busqueda" placeholder="Código postal Ej:5500">
+          <input type="submit" value="Cálcular">
+        </p>  
+      </form>
+    
+    </section>
+    <section>
+     <i class="fa-solid fa-user-shield"></i>
+     <h5 class="subfoot">Seguridad, de principio a fin</h5>
+     <p>   ¿No te gusta? ¡Devolvelo! En Dr Bike, Devoluciones incluidas.   </p>
+  </section>
+  <section>
+     <h5 class="copy">Copyright © 2005-2022 Dr Bike S.R.L.</h5>
+     
+  </section>
+ </footer>
 </body>
 </html>

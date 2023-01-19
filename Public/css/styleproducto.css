@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&family=Zen+Dots&display=swap');
+* {
+    background-color: rgb(213, 237, 245);
+    font-family: syncopate, sans-serif;
+}
+.header1{
+    font-family: zen dots, sans-serif;
+     
+    flex-direction: row;
+    justify-content: center;
+
+}
+    
+.imagen{
+    background-color: lightblue;
+    position: fixed;
+    flex-direction: row;
+    justify-content: center;
+    right: 80%;
+}
+.buscador{
+    background-color: lightblue;
+    width: 50px;
+    position: fixed;
+    flex-direction: row;
+    justify-content: center;
+    right: 68%;
+}
+.usuario{
+    background-color: lightblue;
+    position: fixed;
+    flex-direction: row;
+    justify-content: center;
+    right: 0%;
+}   
+.foot{
+    font-family: zen dots, sans-serif;
+}
+
+
+
+.producto{
+    padding-top: 100px;
+}
