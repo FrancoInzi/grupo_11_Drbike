@@ -1,44 +1,99 @@
 @import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&family=Zen+Dots&display=swap');
-* {
-    background-color: rgb(213, 237, 245);
+* {    
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;   
+}
+body{
+    
     font-family: syncopate, sans-serif;
 }
-.header1{
-    font-family: zen dots, sans-serif;
-     
-    flex-direction: row;
-    justify-content: center;
-
-}
+section{
     
-.imagen{
-    background-color: lightblue;
-    position: fixed;
-    flex-direction: row;
-    justify-content: center;
-    right: 80%;
+    display: flex;
+    flex-wrap: wrap;
+   
 }
-.buscador{
-    background-color: lightblue;
-    width: 50px;
-    position: fixed;
-    flex-direction: row;
-    justify-content: center;
-    right: 68%;
+p{
+    display: block;
+    text-align: justify;
 }
-.usuario{
-    background-color: lightblue;
-    position: fixed;
-    flex-direction: row;
-    justify-content: center;
-    right: 0%;
-}   
-.foot{
-    font-family: zen dots, sans-serif;
+h2{
+    background-color: rgb(141, 135, 161);
+    text-align: center;
+    font-size: 30px;
+}
+h3{
+    background-color: rgb(141, 135, 161);
+    text-align: center;
+}
+h4{
+    background-color: rgb(141, 135, 161);
+    text-align: center;
 }
 
-
-
-.producto{
-    padding-top: 100px;
+.fotobici{
+    width: 100%;
+}
+.product{
+    width: 100%;
+   
+}
+.marca{
+    display: block;
+    width: 100%;
+}
+.freeship{
+    color: green;
+}
+.buy{
+    width: 100%;
+}
+@media (min-with: 361px) {
+    img{
+        width: 400px;
+        height: auto;
+    }
+    .fotobici{
+        width: 50%;
+    }
+    .product{
+        width: 50%;
+       
+    }
+    h2{
+        font-size: 34px;
+    }
+}
+@media (min-with: 769px) {
+    img{
+        width: 500px;
+        height: auto;
+    }
+    .fotobici{
+        width: 50%;
+    }
+    .product{
+        width: 50%;
+       
+    }
+    h2{
+        font-size: 40px;
+    }
+}
+@media (min-with: 1280px) {
+    img{
+        width: 600px;
+        height: auto;
+    }
+    .fotobici{
+        width: 50%;
+    }
+    .product{
+        width: 50%;
+       
+    }
+    h2{
+        font-size: 44px;
+    }
 }

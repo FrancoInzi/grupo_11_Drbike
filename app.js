@@ -2,6 +2,7 @@ const express = require('express');
 const path = require('path');
 
 const app = express();
+const routerMain = require('./src/routes/main.js');
 
 const port = process.env.PORT || 3030
 
@@ -10,16 +11,7 @@ console.log(publicFolderPath);
 
 app.use(express.static(publicFolderPath) );
 
-app.get('/', (req,res) => {
-    res.sendFile(path.join(__dirname, './views/index.html'));
-});
+app.use(routerMain);
 
-app.get('/login.html', (req,res) => {
-    res.sendFile(path.join(__dirname, './views/login.html'));
-});
-
-app.get('/register.html', (req,res) => {
-    res.sendFile(path.join(__dirname, './views/register.html'));
-});
 
 app.listen(port,()=>console.log(`servidor escuchando en puerto ${port}`));
