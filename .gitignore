@@ -1,1 +1,7 @@
+<<<<<<< HEAD
 /node_modules
+=======
+node_modules
+package-lock.json
+Wireframe
+>>>>>>> 597a5e3dd71f60b8ea18e4fc2174cc8bdcfe3334
