@@ -27,7 +27,7 @@ const createProduct = (req,res) => {
     res.sendFile(path.join(__dirname, './views/createProduct.html'));
 }
 
-module.export = {
+module.exports = {
     index,
     login,
     register,
