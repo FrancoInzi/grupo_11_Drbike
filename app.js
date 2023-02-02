@@ -2,16 +2,17 @@ const express = require('express');
 const path = require('path');
 
 const app = express();
+const routerMain = require('./src/routes/main.js');
 
-app.use(express.static('Public'));
+const port = process.env.PORT || 3030
 
+const publicFolderPath = path.join(__dirname, './Public');
+console.log(publicFolderPath);
 
+app.use(express.static(publicFolderPath) );
 
-app.listen(5500, () => console.log ('servidor exitoso'));
+app.use(routerMain);
 
-app.get('/', function(req, res){
-    res.send('Home') 
-});
-app.get('/404', function(req, res){
-    res.send("Error página no encontrada")
-});
+app.set('view engine', 'ejs');
+
+app.listen(port,()=>console.log(`servidor escuchando en puerto ${port}`));
