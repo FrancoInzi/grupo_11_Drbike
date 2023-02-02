@@ -7,37 +7,51 @@
 </head>
 <body>
     <form action="/login" method="POST">
-        <input type="text" name="NombreYApellido">
-        <br>
-        <input type="text" name="NombreDeUsuario">
-        <br>
-        <input type="date" name="FechaDeNacimiento">
-        <br>
-        <input type="text" name="Domicilio">
-        <br>
-        <input type="radio" name="PerfilDelUsuario" value="comprar">
-        <br>
-        <input type="radio" name="PerfilDelUsuario" value="vender">
-        <br>
-        <input type="checkbox" name="categoriaDeInteres" value="Electro">
-        <br>
-        <input type="checkbox" name="categoriaDeInteres" value="Electro">
-        <br>
-        <input type="checkbox" name="categoriaDeInteres" value="Moda">
-        <br>
-        <input type="checkbox" name="categoriaDeInteres" value="Hogar">
-        <br>
-        <input type="checkbox" name="categoriaDeInteres" value="Jugeteria">
-        <br>
-        <input type="checkbox" name="categoriaDeInteres" value="VidaSana">
-        <br>
-        <input type="film" name="FotoDeUsuario" accept=".jpg">
-        <br>
-        <input type="password" name="contrasena">
-        <br>
-        <input type="password" name="confirmarContrasena">
+        
+        <div>
+            <h3>Crea tu cuenta</h3>
+            <label>Nombre Completo</label>
+            <input type="text" name="nombreyapellido" placeholder="Nombre y Apellido">
+        </div>
+        <div>
+            <label>Nombre de Usuario</label>
+            <input type="text" name="nombreDeUsuario" placeholder="Nombre de Usuario">
+        </div>
+        <div>
+            <label>Correo Electronico</label>
+            <input type="email" name="email" placeholder="Email">
+        </div>
     
-        <button></button>
+        <div>
+            <label>Fecha de nacimiento</label>
+            <input type="date" name="FechaDeNacimiento">
+        </div>
+        <div>
+            <label>Domicilio:</label>
+            <select name="domicilio">
+                <option value="">Buenos Aires</option>
+                <option value="">Cordoba</option>
+                <option value="">Mendoza</option>
+                <option value="">Salta</option>
+                <option value="">Tucuman</option>
+                <option value="">Corrientes</option>
+                <option value="">Rio Negro</option>
+            </select>
+        </div>
+        <div>
+            <div>
+                <label>Foto de usuario</label>
+                <input type="film" name="fotoDeUsuario" placeholder="" accept=".jpg, .png">
+            </div>
+            <label>Contraseña</label>
+            <input type="password" name="password" placeholder="Contraseña">
+        </div>
+        <div>
+            <label>Confirmar Contraseña</label>
+            <input type="password" name="password" placeholder="Confirmar Contraseña">
+        </div>
+        <button type="reset">Borrar</button>
+        <button type="submit">Enviar</button>
     </form>
 </body>
 </html>
