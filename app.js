@@ -13,5 +13,6 @@ app.use(express.static(publicFolderPath) );
 
 app.use(routerMain);
 
+app.set('view engine', 'ejs');
 
 app.listen(port,()=>console.log(`servidor escuchando en puerto ${port}`));
