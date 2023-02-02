@@ -4,7 +4,8 @@
   "description": "<!--  Entregable: Wireframe digital o analógico de las siguientes secciones del sitio:\r ● Home\r ● Detalle de producto\r ● Carrito de compras\r ● Formulario de registro\r ● Formulario de login\r Tip: les recomendamos crear la carpeta wireframes para incluir este contenido.\r Entregable (Opcional): Boceto o diseño del sitio incluyendo.\r ● Logo\r ● Colores\r ● Tipografías\r Tip: les recomendamos crear la carpeta design para incluir este contenido.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "test": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,10 @@
   },
   "homepage": "https://github.com/FrancoInzi/grupo_11_Drbike#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.20"
   }
 }
