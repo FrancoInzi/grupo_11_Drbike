@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&family=Zen+Dots&display=swap');
-<<<<<<< HEAD
 * {    
     margin: 0px;
     padding: 0px;
@@ -7,17 +6,12 @@
 }
 body{
     
-=======
-* {
-    background-color: #313131;
->>>>>>> 597a5e3dd71f60b8ea18e4fc2174cc8bdcfe3334
     font-family: syncopate, sans-serif;
     color: aliceblue;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
-<<<<<<< HEAD
 section{
     
     display: flex;
@@ -40,47 +34,6 @@ h3{
 h4{
     background-color: rgb(141, 135, 161);
     text-align: center;
-=======
-.header1{
-    font-family: zen dots, sans-serif;
-    flex-direction: row;
-    justify-content: center;
-
-}
-
-.top{
-    background-color: #caf0f8;
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 100px;
-    position: fixed;
-}
-.imagen{
-    background-color:#caf0f8 ;
-    position: fixed;
-    flex-direction: row;
-    justify-content: center;
-    right: 80%;
-}
-.buscador{
-    background-color: #3b82f680;
-    width: 50px;
-    position: fixed;
-    flex-direction: row;
-    justify-content: center;
-    right: 68%;
-}
-.usuario{
-    background-color: #3b82f680;
-    position: fixed;
-    flex-direction: row;
-    justify-content: center;
-    right: 0%;
-}   
-.foot{
-    font-family: zen dots, sans-serif;
->>>>>>> 597a5e3dd71f60b8ea18e4fc2174cc8bdcfe3334
 }
 
 .fotobici{
