@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include ('../partial/head')%>
+    <link rel="stylesheet" href="../Public/css/styleproducto.css">
+    <title>ProductDetail</title>
+</head>
+<body>
+    <%- include ('./partial/header')%>
+    <main>
+        <section>
+          <div class="marca">
+            <h2>Versa</h2>
+          </div>
+          <div class="fotobici">  
+            <img src="../Public/Image/bicycle-icon.jpg" width="300px" height="300px">
+          </div>
+          <div class="product">
+            
+            <h3>700 R29</h3>
+            <h4>$100.000</h4>
+            
+            <h4>Características</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam velit hic doloremque amet perferendis ullam
+              expedita odit, officia blanditiis nostrum aperiam veniam inventore veritatis illum voluptates, quia facilis
+              quas
+              praesentium.</p>
+            <p class="freeship">Envío grátis</p>  
+          </div>
+          <div class="buy">
+            <div class="talla">
+             <p>Seleciónar Talla</p>
+    
+             <form>
+               <label for="talle">Talle<i class="fa-solid fa-bicycle"></i></label></br>
+               <input type="radio" name="talle" value="R1">R1
+               <input type="radio" name="talle" value="R2">R2
+               <input type="radio" name="talle" value="R3">R3
+             </form>
+            </div>
+            </br>
+            <p class="promo">Ver Formas de pago y promociones.</p><input type="submit" value="Consultar">
+            </br>
+            <h5 class="subfoot">Pagá con tarjeta o en efectivo</h5>
+            <i class="fa-solid fa-credit-card"></i>
+            <input type="submit" value="Comprar">
+          </div>
+        </section>
+      </main>
+    <%- include ('./partial/footer')%> 
+</body>
+</html>
+
